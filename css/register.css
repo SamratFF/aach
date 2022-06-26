@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.RegisterSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f5f6f6; */
+  background-color: #313333;
+  color: white;
+}
+.containerArea {
+  /* width: 400px; */
+  /* width: max-content; */
+  width: 50rem;
+  border: 2px solid #333;
+  padding: 15px 10px;
+  background-color: #404242;
+  border: #404242;
+  border-radius: 5px;
+}
+.containerArea h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 2.5rem;
+}
+.userInput {
+  height: 2rem;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #aaa;
+  background-color: transparent;
+  margin-bottom: 10px;
+  resize: none;
+  outline: none;
+  transition: 1s;
+}
+
+.inputPlaces {
+  margin-top: 2rem;
+}
+
+.inputPlaces label{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.gender span {
+  margin: 1em 2em;
+}
+
+#male {
+  margin-left: 0;
+}
+
+.genderInput {
+  margin: 0 0.10025em;
+}
+
+.submitBTN,
+.resetBTN {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.submitBTN {
+  color: #fff;
+  background-color: #1f4cc7;
+}
+.resetBTN {
+  color: rgb(194, 187, 187);
+  background-color: transparent;
+}
+
+
+
+.errorInput{
+  font-size: 15px;
+  color: red;
+  display: none;
+}

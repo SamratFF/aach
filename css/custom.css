@@ -1,0 +1,126 @@
+.font_1-5rem {
+    font-size: 1.5rem;
+}
+
+.w-150{
+    width: 150%;
+}
+
+.textButton {
+    background: black;
+    border: black;
+}
+
+.customSize_150rem {
+    width: 150rem;
+}
+
+.myImg {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.grey_bgcolor{
+    background: rgb(36, 35, 35);
+}
+.MaxWidth{
+    max-width: fit-content;
+}
+.AlignCenter{
+    align-items: center;
+}
+
+.footerTopSection{
+    background-color: #313333;
+}
+
+.user_login_and_register{
+    float: right;
+	font-weight: 500;
+	background: #ffb320;
+	padding: 8px 10px;
+    margin-left: 10rem;
+
+	border-radius: 30px;
+}
+
+.user_login_and_register_button{
+    font-size: 14px;
+	color: #131313;
+}
+.user_login_and_register_button:hover{
+    color: #0056b3;
+    transition: ease 0.25s;
+}
+
+
+.user_account_nav{
+    font-weight: 500;
+    background: #403C3D;
+	padding: 8px 10px;
+    margin-left: 10rem;
+	border-radius: 30px;
+
+    border: double;
+
+    position: relative;
+    float: right;
+
+    transition: ease 0.25s;
+}
+.user_account_nav:hover{
+    font-size: 1.05rem;
+    padding: 10px 10px;
+    transition: ease 0.25s;
+}
+
+
+.user_account_nav span{
+    color: #b0abab;
+
+    transition: ease 0.25s;
+}
+
+.user_account_nav span:hover{
+    color: white;
+
+    transition: ease 0.25s;
+}
+
+.footer_btn_navigation:hover{
+    color: rgb(255, 194, 81);
+    transition: ease 0.25s;
+}
+
+.user_account_nav_without_settings{
+    font-weight: 500;
+    color: whitesmoke;
+
+    position: relative;
+    float: right;
+
+    transition: ease 0.25s;
+}
+
+
+/* Tablet: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .user_login_and_register {
+		padding: 8px 15px;
+	}
+}
+
+/* Large Mobile: 480px */
+@media only screen and (max-width: 767px) {
+    .user_login_and_register {
+		margin: 1em auto;
+        background: white;
+        padding: 8px 5px;
+        width: max-content;
+	}
+    .user_login_and_register_button{
+        font-size: 14px;
+        color: blue;
+        text-decoration: underline;
+    }
+}
